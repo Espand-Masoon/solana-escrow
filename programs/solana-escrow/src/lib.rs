@@ -9,7 +9,7 @@ pub use constants::*;
 pub use instructions::*;
 pub use state::*;
 
-declare_id!("Hsqgcj31JLWAmFoJrN9dC1P8mqDLCunAj9DEygPBjL36");
+declare_id!("A2AuQQSg3k5hXJNnXNBCz4rxTep33LzmuNdmPzVUiQwd");
 
 #[program]
 pub mod solana_escrow {
@@ -17,5 +17,9 @@ pub mod solana_escrow {
 
     pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
         initialize::handler(ctx)
+    }
+
+    pub fn new_trade(ctx: Context<NewTrade>) -> Result<()> {
+        new_trade::create(ctx)
     }
 }

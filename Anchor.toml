@@ -6,7 +6,7 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-solana_escrow = "Hsqgcj31JLWAmFoJrN9dC1P8mqDLCunAj9DEygPBjL36"
+solana_escrow = "A2AuQQSg3k5hXJNnXNBCz4rxTep33LzmuNdmPzVUiQwd"
 
 [provider]
 cluster = "localnet"
